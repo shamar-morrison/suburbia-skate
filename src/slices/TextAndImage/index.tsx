@@ -18,12 +18,6 @@ declare module 'react' {
   }
 }
 
-declare module 'react' {
-  interface CSSProperties {
-    '--index'?: number
-  }
-}
-
 /**
  * Props for `TextAndImage`.
  */
