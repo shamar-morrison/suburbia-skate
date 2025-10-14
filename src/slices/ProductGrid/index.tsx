@@ -1,22 +1,23 @@
-import { FC } from 'react'
-import { Content } from '@prismicio/client'
-import { SliceComponentProps } from '@prismicio/react'
+import { FC } from "react";
+import { Content } from "@prismicio/client";
+import { SliceComponentProps } from "@prismicio/react";
 
 /**
- * Props for `Homepage`.
+ * Props for `ProductGrid`.
  */
-export type HomepageProps = SliceComponentProps<Content.HomepageSlice>
+export type ProductGridProps = SliceComponentProps<Content.ProductGridSlice>;
 
 /**
- * Component for "Homepage" Slices.
+ * Component for "ProductGrid" Slices.
  */
-const Homepage: FC<HomepageProps> = ({ slice }) => {
+const ProductGrid: FC<ProductGridProps> = ({ slice }) => {
   return (
     <section
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
     >
-      Placeholder component for homepage (variation: {slice.variation}) slices.
+      Placeholder component for product_grid (variation: {slice.variation})
+      slices.
       <br />
       <strong>You can edit this slice directly in your code editor.</strong>
       {/**
@@ -46,7 +47,7 @@ const Homepage: FC<HomepageProps> = ({ slice }) => {
        * 📚 Documentation: https://prismic.io/docs/ai#code-with-prismics-mcp-server
        */}
     </section>
-  )
-}
+  );
+};
 
-export default Homepage
+export default ProductGrid;
