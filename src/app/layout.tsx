@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import { Bowlby_One_SC, DM_Mono } from 'next/font/google'
 import './globals.css'
-import { Header } from '@/app/components/header'
-import { SVGFilters } from '@/app/components/svg-filters'
+import { Header } from '@/components/header'
+import { SVGFilters } from '@/components/svg-filters'
 
 const bowlby = Bowlby_One_SC({
   subsets: ['latin'],

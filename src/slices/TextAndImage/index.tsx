@@ -6,10 +6,10 @@ import {
 } from '@prismicio/react'
 import clsx from 'clsx'
 
-import { Bounded } from '@/app/components/bounded'
-import { ButtonLink } from '@/app/components/button-link'
-import { Heading } from '@/app/components/heading'
-import { SlideIn } from '@/app/components/slide-in'
+import { Bounded } from '@/components/bounded'
+import { ButtonLink } from '@/components/button-link'
+import { Heading } from '@/components/heading'
+import { SlideIn } from '@/components/slide-in'
 import { ParallaxImage } from './parallax-image'
 
 declare module 'react' {

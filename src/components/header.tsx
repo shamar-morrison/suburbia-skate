@@ -4,7 +4,7 @@ import React from 'react'
 import { Logo } from './logo'
 import { createClient } from '@/prismicio'
 import { PrismicNextLink } from '@prismicio/next'
-import { ButtonLink } from '@/app/components/button-link'
+import { ButtonLink } from '@/components/button-link'
 
 export async function Header() {
   const client = createClient()

@@ -1,4 +1,4 @@
-import { ButtonLink } from '@/app/components/button-link'
+import { ButtonLink } from '@/components/button-link'
 import { Content } from '@prismicio/client'
 import { PrismicNextImage } from '@prismicio/next'
 import { SkaterScribble } from './skater-scribble'

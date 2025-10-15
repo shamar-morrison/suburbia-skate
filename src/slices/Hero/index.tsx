@@ -5,9 +5,9 @@ import {
   PrismicText,
   SliceComponentProps,
 } from '@prismicio/react'
-import { Bounded } from '@/app/components/bounded'
-import { Heading } from '@/app/components/heading'
-import { ButtonLink } from '@/app/components/button-link'
+import { Bounded } from '@/components/bounded'
+import { Heading } from '@/components/heading'
+import { ButtonLink } from '@/components/button-link'
 import { TallLogo } from '@/slices/Hero/tall-logo'
 import { WideLogo } from '@/slices/Hero/wide-logo'
 

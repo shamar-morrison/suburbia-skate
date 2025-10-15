@@ -4,10 +4,10 @@ import { FaStar } from 'react-icons/fa6'
 
 import { createClient } from '@/prismicio'
 
-import { HorizontalLine, VerticalLine } from '@/app/components/line'
+import { HorizontalLine, VerticalLine } from '@/components/line'
 import clsx from 'clsx'
 import { Scribble } from './scribble'
-import { ButtonLink } from '@/app/components/button-link'
+import { ButtonLink } from '@/components/button-link'
 
 async function getDominantColor(url: string) {
   const paletteURL = new URL(url)

@@ -1,11 +1,11 @@
-import { Bounded } from '@/app/components/bounded'
-import { Heading } from '@/app/components/heading'
+import { Bounded } from '@/components/bounded'
+import { Heading } from '@/components/heading'
 import { createClient } from '@/prismicio'
 import { Content } from '@prismicio/client'
 import { PrismicText, SliceComponentProps } from '@prismicio/react'
 import React from 'react'
 import { Skater } from './skater'
-import { SlideIn } from '@/app/components/slide-in'
+import { SlideIn } from '@/components/slide-in'
 
 /**
  * Props for `TeamGrid`.

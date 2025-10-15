@@ -1,4 +1,4 @@
-import { Bounded } from '@/app/components/bounded'
+import { Bounded } from '@/components/bounded'
 import { Content, isFilled } from '@prismicio/client'
 import { SliceComponentProps } from '@prismicio/react'
 import { LazyYouTubePlayer } from './lazy-youtube-player'
