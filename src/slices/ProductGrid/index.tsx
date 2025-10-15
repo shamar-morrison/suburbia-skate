@@ -9,16 +9,6 @@ import { Heading } from '@/components/heading'
 import { SlideIn } from '@/components/slide-in'
 import { SkateboardProduct } from '@/slices/ProductGrid/skateboard-product'
 
-interface Good {
-  boo: number
-  far: boolean
-}
-
-const loo: Good = {
-  boo: 1,
-  far: 'no',
-}
-
 /**
  * Props for `ProductGrid`.
  */
