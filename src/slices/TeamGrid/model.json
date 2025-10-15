@@ -1,0 +1,18 @@
+{
+  "id": "team_grid",
+  "type": "SharedSlice",
+  "name": "TeamGrid",
+  "description": "TeamGrid",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {}
+    }
+  ]
+}
