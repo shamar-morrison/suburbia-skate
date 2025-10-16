@@ -2,9 +2,8 @@
 
 Welcome to the Suburbia Skate project! This is a modern, visually-rich, and interactive website for a fictional skateboard brand. The site is built using a cutting-edge tech stack to deliver a unique user experience, featuring 3D skateboard models, physics-based animations, and a headless CMS for content management.
 
-This project was bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+![CleanShot 2025-10-16 at 16 17 57](https://github.com/user-attachments/assets/0a40f154-4302-45b0-a1a8-be0466dc4a17)
 
-![Skateboard preview](./public/concrete-normal.avif)
 
 ## ✨ Key Features
 
