@@ -69,6 +69,24 @@ type ContentRelationshipFieldWithData<
   >
 }[Exclude<TCustomType[number], string>['id']]
 
+interface BoardCustomizerDocumentData {}
+
+/**
+ * Board Customizer document from Prismic
+ *
+ * - **API ID**: `board_customizer`
+ * - **Repeatable**: `false`
+ * - **Documentation**: https://prismic.io/docs/content-modeling
+ *
+ * @typeParam Lang - Language API ID of the document.
+ */
+export type BoardCustomizerDocument<Lang extends string = string> =
+  prismic.PrismicDocumentWithoutUID<
+    Simplify<BoardCustomizerDocumentData>,
+    'board_customizer',
+    Lang
+  >
+
 type HomepageDocumentDataSlicesSlice =
   | TeamGridSlice
   | VideoBlockSlice
@@ -408,6 +426,7 @@ export type SkaterDocument<Lang extends string = string> =
   prismic.PrismicDocumentWithUID<Simplify<SkaterDocumentData>, 'skater', Lang>
 
 export type AllDocumentTypes =
+  | BoardCustomizerDocument
   | HomepageDocument
   | SettingsDocument
   | SkateboardDocument
@@ -890,6 +909,8 @@ declare module '@prismicio/client' {
 
   namespace Content {
     export type {
+      BoardCustomizerDocument,
+      BoardCustomizerDocumentData,
       HomepageDocument,
       HomepageDocumentData,
       HomepageDocumentDataSlicesSlice,

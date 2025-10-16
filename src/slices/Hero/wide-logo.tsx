@@ -1,13 +1,18 @@
-import clsx from 'clsx'
+'use client'
+
 import { SVGProps } from 'react'
+import clsx from 'clsx'
+
+import { useIsSafari } from '@/lib/use-is-safari'
 
 export function WideLogo({ className, ...props }: SVGProps<SVGSVGElement>) {
+  const isSafari = useIsSafari(true)
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 1440 553"
-      className={clsx(className, 'animate-squiggle')}
+      className={clsx(className, isSafari ? undefined : 'animate-squiggle')}
       {...props}
     >
       <path
