@@ -15,7 +15,8 @@ Welcome to the Suburbia Skate project! This is a modern, visually-rich, and inte
 
 ## 🛹 Skateboard Customizer
 
-![Skateboard Customizer](https://i.imgur.com/7y6fzID.gif)
+![CleanShot 2025-10-17 at 00 24 57](https://github.com/user-attachments/assets/22076b98-486d-4555-9608-dab62cd1bee5)
+
 
 One of the standout features of this project is the Skateboard Customizer. Users can personalize their skateboards by selecting different decks, wheels, trucks, and grip tape options. The customizer provides a real-time 3D preview of the skateboard as users make their selections, enhancing the shopping experience.
 
