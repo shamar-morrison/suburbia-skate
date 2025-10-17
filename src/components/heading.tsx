@@ -9,7 +9,7 @@ type HeadingProps = {
 
 export function Heading({
   as: Comp = 'h1',
-  className,
+  className = '',
   children,
   size = 'lg',
 }: HeadingProps) {
