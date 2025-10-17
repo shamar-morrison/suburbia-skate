@@ -13,7 +13,9 @@ Welcome to the Suburbia Skate project! This is a modern, visually-rich, and inte
 - **Modern Frontend:** Built with Next.js 15 (App Router) and React 19 for a fast, server-rendered experience.
 - **Responsive Design:** Styled with Tailwind CSS for a fully responsive layout that works on all devices.
 
-## Skateboard Customizer
+## 🛹 Skateboard Customizer
+
+![Skateboard Customizer](https://i.imgur.com/7y6fzID.gif)
 
 One of the standout features of this project is the Skateboard Customizer. Users can personalize their skateboards by selecting different decks, wheels, trucks, and grip tape options. The customizer provides a real-time 3D preview of the skateboard as users make their selections, enhancing the shopping experience.
 
