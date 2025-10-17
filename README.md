@@ -4,7 +4,6 @@ Welcome to the Suburbia Skate project! This is a modern, visually-rich, and inte
 
 ![CleanShot 2025-10-16 at 16 17 57](https://github.com/user-attachments/assets/0a40f154-4302-45b0-a1a8-be0466dc4a17)
 
-
 ## ✨ Key Features
 
 - **Interactive 3D Models:** Built with React Three Fiber and Drei, allowing users to view and interact with skateboard products in 3D.
@@ -13,6 +12,10 @@ Welcome to the Suburbia Skate project! This is a modern, visually-rich, and inte
 - **Slice Machine:** Prismic's Slice Machine is used for creating and managing reusable page sections (Slices).
 - **Modern Frontend:** Built with Next.js 15 (App Router) and React 19 for a fast, server-rendered experience.
 - **Responsive Design:** Styled with Tailwind CSS for a fully responsive layout that works on all devices.
+
+## Skateboard Customizer
+
+One of the standout features of this project is the Skateboard Customizer. Users can personalize their skateboards by selecting different decks, wheels, trucks, and grip tape options. The customizer provides a real-time 3D preview of the skateboard as users make their selections, enhancing the shopping experience.
 
 ## 🛠️ Tech Stack
 
